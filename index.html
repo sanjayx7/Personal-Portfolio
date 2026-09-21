@@ -811,7 +811,9 @@
        ========================================================================== */
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: 1fr;
+      max-width: 880px;
+      margin: 0 auto;
       gap: 2rem;
     }
 
@@ -1584,65 +1586,6 @@
               <a href="YOUR_LIVE_LINK" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"
                 title="Live Demo">
                 <span>Live Demo</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="7" y1="17" x2="17" y2="7"></line>
-                  <polyline points="7 7 17 7 17 17"></polyline>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Project 2: Enterprise RAG & ERP AI Suite -->
-          <div class="glass-card project-card reveal">
-            <div>
-              <div class="project-badge-bar">
-                <span class="project-type">Enterprise AI Architecture</span>
-                <span class="chip">Production</span>
-              </div>
-
-              <h3 class="project-title">Enterprise ERP RAG & AI Suite</h3>
-              <div class="project-subtitle">Document Intelligence, Semantic Search & Predictive ML</div>
-
-              <ul class="project-bullets">
-                <li>Production RAG and semantic search pipeline integrated across 5+ core ERP modules, indexing 1,000+
-                  enterprise documents with top-k vector retrieval.</li>
-                <li>Achieved 20–25% response time improvement across workflows through embedding-based search and vector
-                  retrieval optimization.</li>
-                <li>Implemented Celery and Redis asynchronous processing pipelines for high-throughput OCR and document
-                  intelligence.</li>
-                <li>Deployed containerized microservices on AWS EC2 with integrated ML models for customer churn and
-                  demand forecasting.</li>
-              </ul>
-
-              <div class="project-chips">
-                <span class="chip">LangChain</span>
-                <span class="chip">FAISS</span>
-                <span class="chip">Sentence Transformers</span>
-                <span class="chip">FastAPI</span>
-                <span class="chip">Django</span>
-                <span class="chip">Docker & EC2</span>
-                <span class="chip">Celery & Redis</span>
-              </div>
-            </div>
-
-            <div class="project-links">
-              <!-- PLACEHOLDER: Replace 'YOUR_GITHUB_LINK' with your project repository URL -->
-              <a href="https://github.com/sanjayx7/YOUR_REPO_NAME" target="_blank" rel="noopener noreferrer"
-                class="btn btn-glass btn-sm" title="View Code Repository">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                  </path>
-                </svg>
-                <span>Code Repository</span>
-              </a>
-
-              <!-- PLACEHOLDER: Replace 'YOUR_LIVE_LINK' with your live case study or deployment link -->
-              <a href="YOUR_LIVE_LINK" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"
-                title="Explore Architecture">
-                <span>View System</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                   stroke-linecap="round" stroke-linejoin="round">
                   <line x1="7" y1="17" x2="17" y2="7"></line>
